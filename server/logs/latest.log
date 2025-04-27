@@ -1,275 +1,100 @@
-[15:49:38] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Microsoft Microsoft-10800198) on Linux 6.8.0-1026-azure (amd64)
-[15:49:38] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-40-main@b9d3147 (2025-04-27T12:23:49Z) for Minecraft 1.21.5
-[15:49:38] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:49:39] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
-[15:49:44] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 5460ms.
-[15:49:44] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/floodgate-spigot.jar'...
-[15:49:47] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/floodgate-spigot.jar' in 2366ms.
-[15:49:47] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[15:49:47] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+[17:30:53] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Microsoft Microsoft-10800198) on Linux 6.8.0-1026-azure (amd64)
+[17:30:53] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-40-main@b9d3147 (2025-04-27T12:23:49Z) for Minecraft 1.21.5
+[17:30:53] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:30:54] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[17:30:54] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
  - Geyser-Spigot (2.7.0-SNAPSHOT), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[15:49:51] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:49:53] [ServerMain/INFO]: Loaded 1373 recipes
-[15:49:53] [ServerMain/INFO]: Loaded 1484 advancements
-[15:49:53] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[15:49:53] [Server thread/INFO]: Loading properties
-[15:49:54] [Server thread/INFO]: This server is running Paper version 1.21.5-40-main@b9d3147 (2025-04-27T12:23:49Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
-[15:49:54] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:49:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:49:54] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:49:54] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[15:49:54] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[15:49:55] [Server thread/INFO]: Default game type: SURVIVAL
-[15:49:55] [Server thread/INFO]: Generating keypair
-[15:49:55] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:49:55] [Server thread/INFO]: Using epoll channel type
-[15:49:55] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:49:55] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[15:49:55] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[15:49:56] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[15:49:57] [Server thread/INFO]: [floodgate] Took 1,432ms to boot Floodgate
-[15:49:57] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
-[15:49:57] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[15:49:57] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[15:49:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:49:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:49:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:49:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:49:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:49:57] [Server thread/INFO]: Preparing level "world"
-[15:49:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:49:58] [Server thread/INFO]: Preparing spawn area: 0%
-[15:49:59] [Server thread/INFO]: Preparing spawn area: 2%
-[15:49:59] [Server thread/INFO]: Preparing spawn area: 2%
-[15:50:00] [Server thread/INFO]: Preparing spawn area: 6%
-[15:50:00] [Server thread/INFO]: Time elapsed: 1783 ms
-[15:50:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:50:00] [Server thread/INFO]: Preparing spawn area: 0%
-[15:50:00] [Server thread/INFO]: Time elapsed: 396 ms
-[15:50:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:50:00] [Server thread/INFO]: Preparing spawn area: 0%
-[15:50:00] [Server thread/INFO]: Time elapsed: 322 ms
-[15:50:00] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[15:50:01] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
-[15:50:01] [Server thread/INFO]: [spark] Starting background profiler...
-[15:50:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:50:02] [Server thread/INFO]: [Geyser-Spigot] 
-[15:50:02] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b817 (git-master-84aac67)
-[15:50:02] [Server thread/INFO]: [Geyser-Spigot] 
-[15:50:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:50:06] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[15:50:06] [Server thread/INFO]: [Geyser-Spigot] Done (3.94s)! Run /geyser help for help!
-[15:50:06] [Server thread/INFO]: Done preparing level "world" (8.286s)
-[15:50:06] [Server thread/INFO]: Running delayed init tasks
-[15:50:06] [Server thread/INFO]: Done (28.916s)! For help, type "help"
-[15:51:06] [User Authenticator #0/INFO]: UUID of player Ayush is 12ce0333-8ddf-3ec3-bc64-fb2c2b386f98
-[15:51:09] [Server thread/INFO]: Ayush joined the game
-[15:51:09] [Server thread/INFO]: Ayush[/127.31.235.128:36809] logged in with entity id 17 at ([world]264.5916738843938, 70.0, 115.44427930231161)
-[15:51:53] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username DEATHLORD453590
-[15:51:53] [localSession-7-2/INFO]: [Geyser-Spigot] DEATHLORD453590 (logged in as: DEATHLORD453590) has connected to the Java server
-[15:51:53] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DEATHLORD453590 joined (UUID: 00000000-0000-0000-0009-01f816564c19)
-[15:51:53] [Server thread/INFO]: .DEATHLORD453590 joined the game
-[15:51:53] [Server thread/INFO]: .DEATHLORD453590[/127.0.0.1:0] logged in with entity id 391 at ([world]-13.5, 70.0, 23.5)
-[15:52:03] [Server thread/INFO]: Ayush issued server command: /tp .DEATHLORD453590 Ayush
-[15:52:03] [Server thread/INFO]: [Ayush: Teleported .DEATHLORD453590 to Ayush]
-[15:52:32] [Async Chat Thread - #0/INFO]: [Not Secure] <Ayush> hello
-[15:52:40] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Utkarsh alok
-[15:52:40] [localSession-7-3/INFO]: [Geyser-Spigot] Utkarsh alok (logged in as: Utkarsh_alok) has connected to the Java server
-[15:52:40] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Utkarsh_alok joined (UUID: 00000000-0000-0000-0009-01f45af8fa67)
-[15:52:40] [Server thread/INFO]: .Utkarsh_alok joined the game
-[15:52:40] [Server thread/INFO]: .Utkarsh_alok[/127.0.0.1:0] logged in with entity id 692 at ([world]-6.5, 68.0, 23.5)
-[15:52:49] [Async Chat Thread - #0/INFO]: [Not Secure] <Ayush> ehat is going on bro
-[15:53:46] [Async Chat Thread - #0/INFO]: [Not Secure] <.DEATHLORD453590> hey
-[15:53:54] [Async Chat Thread - #0/INFO]: [Not Secure] <Ayush> hii
-[15:54:02] [Async Chat Thread - #0/INFO]: [Not Secure] <.DEATHLORD453590> how to do split control
-[15:54:02] [Async Chat Thread - #0/INFO]: [Not Secure] <.Utkarsh_alok> hii
-[15:54:05] [Async Chat Thread - #0/INFO]: [Not Secure] <.Utkarsh_alok> 3.24 63.00 29.37
-[15:55:24] [Server thread/INFO]: Ayush issued server command: /tp .DEATHLORD453590 3.24 63.0 29.37
-[15:55:24] [Server thread/INFO]: [Ayush: Teleported .DEATHLORD453590 to 3.240000, 63.000000, 29.370000]
-[15:55:36] [Server thread/INFO]: Ayush issued server command: /tp Ayush 3.24 63.0 29.37
-[15:55:36] [Server thread/INFO]: [Ayush: Teleported Ayush to 3.240000, 63.000000, 29.370000]
-[15:56:21] [Server thread/INFO]: Ayush issued server command: /time set day
-[15:56:21] [Server thread/INFO]: [Ayush: Set the time to 1000]
-[15:56:24] [Async Chat Thread - #2/INFO]: [Not Secure] <.DEATHLORD453590> wait
-[15:56:48] [Async Chat Thread - #2/INFO]: [Not Secure] <.Utkarsh_alok> server is laggy
-[15:57:08] [Async Chat Thread - #2/INFO]: [Not Secure] <Ayush> yess i will find a way to fix it later
-[15:57:25] [Async Chat Thread - #2/INFO]: [Not Secure] <.Utkarsh_alok> thats good to hear
-[15:57:38] [Server thread/INFO]: Unknown or incomplete command, see below for error
-hello<--[HERE]
-[15:58:14] [Server thread/INFO]: .Utkarsh_alok has made the advancement [Stone Age]
-[15:58:21] [Server thread/INFO]: Ayush issued server command: /tell .DEATHLORD453590 hii
-[15:59:13] [Async Chat Thread - #2/INFO]: [Not Secure] <.DEATHLORD453590> i am back
-[15:59:35] [Server thread/INFO]: .DEATHLORD453590 issued server command: /msg ayush hi
-[16:00:07] [Server thread/INFO]: .Utkarsh_alok has made the advancement [Getting an Upgrade]
-[16:00:31] [Server thread/INFO]: .DEATHLORD453590 has made the advancement [Getting an Upgrade]
-[16:00:48] [Async Chat Thread - #5/INFO]: [Not Secure] <.DEATHLORD453590> ayush
-[16:01:20] [Async Chat Thread - #5/INFO]: [Not Secure] <Ayush> what happned
-[16:01:22] [Async Chat Thread - #5/INFO]: [Not Secure] <.DEATHLORD453590> java server hai??
-[16:01:31] [Async Chat Thread - #5/INFO]: [Not Secure] <Ayush> haa
-[16:02:02] [Async Chat Thread - #5/INFO]: [Not Secure] <.Utkarsh_alok> laggggg
-[16:02:39] [Async Chat Thread - #5/INFO]: [Not Secure] <Ayush> call
-[16:02:43] [Async Chat Thread - #5/INFO]: [Not Secure] <Ayush> karo
-[16:04:00] [Async Chat Thread - #7/INFO]: [Not Secure] <.Utkarsh_alok> guys follow me
-[16:04:15] [Async Chat Thread - #7/INFO]: [Not Secure] <Ayush> kaha ho tumm
-[16:05:25] [Async Chat Thread - #9/INFO]: [Not Secure] <.Utkarsh_alok> tarian is not lodded
-[16:05:42] [Async Chat Thread - #9/INFO]: [Not Secure] <Ayush> hara hoo ra ha ha
-[16:06:38] [Async Chat Thread - #9/INFO]: [Not Secure] <.DEATHLORD453590> day karo
-[16:06:53] [Server thread/INFO]: Ayush has made the advancement [Sweet Dreams]
-[16:06:54] [Server thread/INFO]: .DEATHLORD453590 has made the advancement [Stone Age]
-[16:07:09] [Async Chat Thread - #9/INFO]: [Not Secure] <Ayush> ehat happ
-[16:07:24] [Async Chat Thread - #9/INFO]: [Not Secure] <.DEATHLORD453590> heheeee........
-[16:08:32] [Async Chat Thread - #11/INFO]: [Not Secure] <.DEATHLORD453590> niche aao
-[16:08:51] [Async Chat Thread - #11/INFO]: [Not Secure] <.Utkarsh_alok> food
-[16:09:19] [Server thread/INFO]: .Utkarsh_alok was slain by Ayush
-[16:09:26] [Async Chat Thread - #11/INFO]: [Not Secure] <Ayush> heee
-[16:09:46] [Async Chat Thread - #11/INFO]: [Not Secure] <.DEATHLORD453590> hehe
-[16:12:13] [Server thread/INFO]: Ayush was slain by .Utkarsh_alok
-[16:12:24] [Async Chat Thread - #13/INFO]: [Not Secure] <.DEATHLORD453590> hehe
-[16:12:32] [Async Chat Thread - #13/INFO]: [Not Secure] <.DEATHLORD453590> where r u guys
-[16:12:44] [Async Chat Thread - #13/INFO]: [Not Secure] <.Utkarsh_alok> ur back
-[16:13:37] [Async Chat Thread - #13/INFO]: [Not Secure] <Ayush> give me my every thing
-[16:13:50] [Async Chat Thread - #13/INFO]: [Not Secure] <.Utkarsh_alok> there
-[16:13:55] [Async Chat Thread - #13/INFO]: [Not Secure] <Ayush> ihave more things
-[16:14:08] [Async Chat Thread - #13/INFO]: [Not Secure] <Ayush> furness
-[16:14:14] [Async Chat Thread - #13/INFO]: [Not Secure] <.Utkarsh_alok> bro i was having some
-[16:14:28] [Async Chat Thread - #13/INFO]: [Not Secure] <Ayush> what some
-[16:14:47] [Async Chat Thread - #13/INFO]: [Not Secure] <Ayush> my inventory was almost full
-[16:15:00] [Async Chat Thread - #13/INFO]: [Not Secure] <Ayush> bro give me every thing
-[16:15:25] [Async Chat Thread - #13/INFO]: [Not Secure] <.DEATHLORD453590> ayush
-[16:15:37] [Async Chat Thread - #13/INFO]: [Not Secure] <.DEATHLORD453590> keep inv on hai???
-[16:15:44] [Async Chat Thread - #13/INFO]: [Not Secure] <.Utkarsh_alok> nahi
-[16:15:45] [Server thread/INFO]: Ayush issued server command: /no
-[16:15:47] [Async Chat Thread - #13/INFO]: [Not Secure] <Ayush> no
-[16:16:22] [Async Chat Thread - #13/INFO]: [Not Secure] <.DEATHLORD453590> where r u all
-[16:16:30] [Async Chat Thread - #13/INFO]: [Not Secure] <.DEATHLORD453590> i am in mines
-[16:16:59] [Async Chat Thread - #13/INFO]: [Not Secure] <Ayush> crafting table
-[16:17:55] [Server thread/INFO]: .DEATHLORD453590 has made the advancement [Acquire Hardware]
-[16:18:07] [Async Chat Thread - #15/INFO]: [Not Secure] <Ayush> broooooo....
-[16:18:20] [Server thread/INFO]: .DEATHLORD453590 has made the advancement [Isn't It Iron Pick]
-[16:18:30] [Server thread/INFO]: .DEATHLORD453590 has made the advancement [Diamonds!]
-[16:18:46] [Async Chat Thread - #15/INFO]: [Not Secure] <.Utkarsh_alok> what do hellll
-[16:19:45] [Async Chat Thread - #15/INFO]: [Not Secure] <.Utkarsh_alok> we can make this temporary house
-[16:19:51] [Async Chat Thread - #15/INFO]: [Not Secure] <.Utkarsh_alok> for now
-[16:19:59] [Server thread/INFO]: .DEATHLORD453590 has made the advancement [Not Today, Thank You]
-[16:20:09] [Server thread/INFO]: .DEATHLORD453590 has made the advancement [Monster Hunter]
-[16:20:10] [Async Chat Thread - #15/INFO]: [Not Secure] <.Utkarsh_alok> until till we gear up
-[16:21:10] [Async Chat Thread - #15/INFO]: [Not Secure] <Ayush> so deep
-[16:21:20] [Async Chat Thread - #15/INFO]: [Not Secure] <.Utkarsh_alok> see spawner
-[16:21:35] [Async Chat Thread - #15/INFO]: [Not Secure] <.DEATHLORD453590> i am at -48
-[16:21:39] [Async Chat Thread - #15/INFO]: [Not Secure] <.Utkarsh_alok> -45.37 34.27 96.70
-[16:21:55] [Async Chat Thread - #15/INFO]: [Not Secure] <.Utkarsh_alok> -46.53 37.00 102.70
-[16:21:56] [Async Chat Thread - #16/INFO]: [Not Secure] <Ayush> whait i will come
-[16:23:47] [Server thread/INFO]: Ayush lost connection: Disconnected
-[16:23:47] [Server thread/INFO]: Ayush left the game
-[16:25:14] [User Authenticator #1/INFO]: UUID of player Ayush is 12ce0333-8ddf-3ec3-bc64-fb2c2b386f98
-[16:25:16] [Server thread/INFO]: Ayush joined the game
-[16:25:16] [Server thread/INFO]: Ayush[/127.31.235.128:39499] logged in with entity id 5905 at ([world]-44.3160190375168, 37.0, 94.30000001192093)
-[16:26:01] [Async Chat Thread - #17/INFO]: [Not Secure] <Ayush> that was my
-[16:27:02] [Async Chat Thread - #19/INFO]: [Not Secure] <.DEATHLORD453590> aabe ayush
-[16:28:02] [Server thread/INFO]: Ayush has made the advancement [Monster Hunter]
-[16:28:28] [Server thread/INFO]: .Utkarsh_alok drowned
-[16:28:34] [Server thread/INFO]: Ayush has made the advancement [Acquire Hardware]
-[16:28:39] [Async Chat Thread - #21/INFO]: [Not Secure] <Ayush> thank
-[16:28:39] [Async Chat Thread - #21/INFO]: [Not Secure] <.DEATHLORD453590> shield
-[16:28:44] [Async Chat Thread - #21/INFO]: [Not Secure] <.DEATHLORD453590> banao
-[16:29:38] [Server thread/INFO]: .Utkarsh_alok drowned
-[16:29:58] [Server thread/WARN]: .DEATHLORD453590 moved wrongly!
-[16:31:04] [Server thread/INFO]: Ayush has made the advancement [Not Today, Thank You]
-[16:31:13] [Server thread/INFO]: Ayush was shot by Skeleton
-[16:32:22] [Async Chat Thread - #23/INFO]: [Not Secure] <.DEATHLORD453590> does anyone have food
-[16:33:46] [Server thread/INFO]: Ayush was shot by Skeleton
-[16:33:52] [Server thread/INFO]: .Utkarsh_alok drowned
-[16:33:54] [Async Chat Thread - #25/INFO]: [Not Secure] <Ayush> brro
-[16:33:58] [Server thread/INFO]: .DEATHLORD453590 was slain by Drowned
-[16:34:15] [Async Chat Thread - #25/INFO]: [Not Secure] <.DEATHLORD453590> ayush
-[16:34:44] [Async Chat Thread - #25/INFO]: [Not Secure] <.DEATHLORD453590> eak chunk se zayada load nai ho raha
-[16:35:03] [Server thread/INFO]: .Utkarsh_alok has made the advancement [Diamonds!]
-[16:35:12] [Server thread/INFO]: .Utkarsh_alok drowned
-[16:35:45] [Server thread/INFO]: Ayush was slain by Zombie
-[16:35:46] [Server thread/INFO]: .Utkarsh_alok drowned
-[16:35:55] [Async Chat Thread - #27/INFO]: [Not Secure] <.DEATHLORD453590> ayush
-[16:36:21] [Server thread/INFO]: .Utkarsh_alok drowned
-[16:36:24] [Async Chat Thread - #27/INFO]: [Not Secure] <Ayush> i lost every thing :(::::::
-[16:36:32] [Async Chat Thread - #27/INFO]: [Not Secure] <.DEATHLORD453590> me too
-[16:36:37] [Async Chat Thread - #27/INFO]: [Not Secure] <.DEATHLORD453590> hey
-[16:36:44] [Async Chat Thread - #27/INFO]: [Not Secure] <.DEATHLORD453590> where r u
-[16:37:24] [Server thread/INFO]: .Utkarsh_alok has made the advancement [Isn't It Iron Pick]
-[16:38:31] [Async Chat Thread - #29/INFO]: [Not Secure] <Ayush> i lost every thing :(::::::
-[16:38:34] [Async Chat Thread - #29/INFO]: [Not Secure] <Ayush> i lost every thing :(::::::
-[16:38:37] [Async Chat Thread - #29/INFO]: [Not Secure] <.DEATHLORD453590> hey
-[16:38:42] [Async Chat Thread - #29/INFO]: [Not Secure] <Ayush> broooooooooooooo
-[16:39:04] [Async Chat Thread - #29/INFO]: [Not Secure] <.DEATHLORD453590> lets restart grine everything
-[16:39:16] [Async Chat Thread - #29/INFO]: [Not Secure] <.DEATHLORD453590> 174.82 71.00 138.18
-[16:39:17] [Async Chat Thread - #29/INFO]: [Not Secure] <Ayush> yess
-[16:39:19] [Async Chat Thread - #29/INFO]: [Not Secure] <.DEATHLORD453590> 174.82 71.00 138.18
-[16:39:21] [Async Chat Thread - #29/INFO]: [Not Secure] <Ayush> ok
-[16:39:28] [Async Chat Thread - #29/INFO]: [Not Secure] <.DEATHLORD453590> come here fast
-[16:39:32] [Async Chat Thread - #29/INFO]: [Not Secure] <.Utkarsh_alok> mine this side
-[16:39:35] [Async Chat Thread - #29/INFO]: [Not Secure] <Ayush> we dont have food
-[16:39:54] [Async Chat Thread - #29/INFO]: [Not Secure] <.DEATHLORD453590> i will collect
-[16:44:43] [Server thread/INFO]: Ayush has made the advancement [Suit Up]
-[16:45:08] [Async Chat Thread - #31/INFO]: [Not Secure] <.Utkarsh_alok> -45.45 40.00 92.19
-[16:45:59] [Server thread/INFO]: .Utkarsh_alok has made the advancement [Sweet Dreams]
-[16:46:28] [Server thread/INFO]: Ayush fell from a high place
-[16:46:53] [Async Chat Thread - #33/INFO]: [Not Secure] <.DEATHLORD453590> 288.70 64.00 182.89
-[16:48:18] [Async Chat Thread - #35/INFO]: [Not Secure] <.Utkarsh_alok> bhaiii
-[16:48:44] [Async Chat Thread - #35/INFO]: [Not Secure] <.Utkarsh_alok> yaha pe crucifix type ka dirt ka structure hai
-[16:48:47] [Async Chat Thread - #35/INFO]: [Not Secure] <.Utkarsh_alok> 169.00 71.00 140.51
-[16:50:32] [Async Chat Thread - #38/INFO]: [Not Secure] <.Utkarsh_alok> 291.21 67.00 435.20
-[16:50:51] [Async Chat Thread - #38/INFO]: [Not Secure] <Ayush> bro i am traped heer
-[16:51:07] [Async Chat Thread - #38/INFO]: [Not Secure] <Ayush> come heer to dave me
-[16:53:37] [Server thread/INFO]: Ayush lost connection: Disconnected
-[16:53:37] [Server thread/INFO]: Ayush left the game
-[16:54:29] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] DEATHLORD453590 has disconnected from the Java server because of Bedrock client disconnected
-[16:54:29] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .DEATHLORD453590 disconnected
-[16:54:29] [Server thread/INFO]: .DEATHLORD453590 lost connection: Disconnected
-[16:54:29] [Server thread/INFO]: .DEATHLORD453590 left the game
-[16:54:47] [Server thread/INFO]: .Utkarsh_alok has made the advancement [Monster Hunter]
-[16:56:01] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Utkarsh_alok disconnected
-[16:56:01] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Utkarsh alok has disconnected from the Java server because of Bedrock client timed out
-[16:56:01] [Server thread/INFO]: .Utkarsh_alok lost connection: Disconnected
-[16:56:01] [Server thread/INFO]: .Utkarsh_alok left the game
-[16:59:19] [User Authenticator #2/INFO]: UUID of player Ayush is 12ce0333-8ddf-3ec3-bc64-fb2c2b386f98
-[16:59:21] [Server thread/INFO]: Ayush joined the game
-[16:59:21] [Server thread/INFO]: Ayush[/127.31.235.128:38583] logged in with entity id 15335 at ([world]-19.353906507251057, 63.0, 41.709705911207514)
-[17:07:11] [Server thread/INFO]: Ayush issued server command: /give Ayush minecraft:white_bed
-[17:07:11] [Server thread/INFO]: [Ayush: Gave 1 [White Bed] to Ayush]
-[17:09:31] [Server thread/INFO]: Ayush lost connection: Disconnected
-[17:09:31] [Server thread/INFO]: Ayush left the game
-[17:09:59] [Server thread/INFO]: Stopping server
-[17:09:59] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
-[17:09:59] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[17:09:59] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[17:09:59] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[17:09:59] [Server thread/INFO]: Saving players
-[17:09:59] [Server thread/INFO]: Saving worlds
-[17:09:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:09:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:09:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:09:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:09:59] [Server thread/INFO]: [ChunkHolderManager] Saved 22 block chunks, 157 entity chunks, 0 poi chunks in world 'world' in 0.06s
-[17:09:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[17:09:59] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[17:09:59] [WebSocketConnectReadThread-75/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[17:09:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:09:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:09:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:09:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:09:59] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[17:09:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[17:09:59] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[17:09:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:09:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:09:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:09:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:09:59] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[17:09:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[17:09:59] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[17:09:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:09:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:09:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:09:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:09:59] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[17:09:59] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[17:09:59] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[17:09:59] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[17:30:58] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:31:00] [ServerMain/INFO]: Loaded 1373 recipes
+[17:31:00] [ServerMain/INFO]: Loaded 1484 advancements
+[17:31:00] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[17:31:00] [Server thread/INFO]: Loading properties
+[17:31:00] [Server thread/INFO]: This server is running Paper version 1.21.5-40-main@b9d3147 (2025-04-27T12:23:49Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[17:31:00] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:31:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:31:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:31:01] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[17:31:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[17:31:01] [Server thread/INFO]: Default game type: SURVIVAL
+[17:31:01] [Server thread/INFO]: Generating keypair
+[17:31:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:31:02] [Server thread/INFO]: Using epoll channel type
+[17:31:02] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:31:02] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[17:31:02] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[17:31:03] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[17:31:03] [Server thread/INFO]: [floodgate] Took 922ms to boot Floodgate
+[17:31:03] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
+[17:31:04] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[17:31:04] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[17:31:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:31:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:31:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:31:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:31:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:31:04] [Server thread/INFO]: Preparing level "world"
+[17:31:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:31:05] [Server thread/INFO]: Preparing spawn area: 0%
+[17:31:05] [Server thread/INFO]: Preparing spawn area: 2%
+[17:31:05] [Server thread/INFO]: Time elapsed: 912 ms
+[17:31:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:31:05] [Server thread/INFO]: Preparing spawn area: 0%
+[17:31:06] [Server thread/INFO]: Time elapsed: 250 ms
+[17:31:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:31:06] [Server thread/INFO]: Preparing spawn area: 0%
+[17:31:06] [Server thread/INFO]: Time elapsed: 136 ms
+[17:31:06] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[17:31:06] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
+[17:31:07] [Server thread/INFO]: [spark] Starting background profiler...
+[17:31:07] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:31:07] [Server thread/INFO]: [Geyser-Spigot] 
+[17:31:07] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b817 (git-master-84aac67)
+[17:31:07] [Server thread/INFO]: [Geyser-Spigot] 
+[17:31:07] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:31:12] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[17:31:12] [Server thread/INFO]: [Geyser-Spigot] Done (4.712s)! Run /geyser help for help!
+[17:31:12] [Server thread/INFO]: Done preparing level "world" (8.164s)
+[17:31:12] [Server thread/INFO]: Running delayed init tasks
+[17:31:12] [Server thread/INFO]: Done (19.745s)! For help, type "help"
+[17:34:06] [User Authenticator #0/INFO]: UUID of player Ayush is 12ce0333-8ddf-3ec3-bc64-fb2c2b386f98
+[17:34:11] [Server thread/INFO]: Ayush joined the game
+[17:34:11] [Server thread/INFO]: Ayush[/127.31.235.128:54667] logged in with entity id 45 at ([world]-65.69999998807907, 71.0, 77.69999998807907)
+[17:34:25] [Server thread/INFO]: Ayush lost connection: Disconnected
+[17:34:25] [Server thread/INFO]: Ayush left the game
+[17:34:53] [Server thread/INFO]: Stopping server
+[17:34:53] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
+[17:34:53] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[17:34:53] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[17:34:53] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[17:34:53] [Server thread/INFO]: Saving players
+[17:34:53] [Server thread/INFO]: Saving worlds
+[17:34:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:34:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:34:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:34:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:34:53] [WebSocketConnectReadThread-71/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[17:34:54] [Server thread/INFO]: [ChunkHolderManager] Saved 552 block chunks, 552 entity chunks, 0 poi chunks in world 'world' in 1.02s
+[17:34:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[17:34:54] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[17:34:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:34:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:34:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:34:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:34:54] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.07s
+[17:34:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[17:34:54] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[17:34:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:34:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:34:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:34:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:34:54] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
+[17:34:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[17:34:54] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[17:34:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:34:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:34:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:34:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:34:54] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[17:34:54] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[17:34:54] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[17:34:54] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
