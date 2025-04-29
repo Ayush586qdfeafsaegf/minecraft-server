@@ -1,101 +1,364 @@
-[10:58:54] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Microsoft Microsoft-10800198) on Linux 6.8.0-1026-azure (amd64)
-[10:58:54] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-40-main@b9d3147 (2025-04-27T12:23:49Z) for Minecraft 1.21.5
-[10:58:54] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[10:58:55] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[10:58:55] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
- - Geyser-Spigot (2.7.0-SNAPSHOT), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[10:59:01] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[10:59:03] [ServerMain/INFO]: Loaded 1373 recipes
-[10:59:03] [ServerMain/INFO]: Loaded 1484 advancements
-[10:59:03] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[10:59:03] [Server thread/INFO]: Loading properties
-[10:59:03] [Server thread/INFO]: This server is running Paper version 1.21.5-40-main@b9d3147 (2025-04-27T12:23:49Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
-[10:59:03] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[10:59:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:59:03] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:59:04] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[10:59:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[10:59:05] [Server thread/INFO]: Default game type: SURVIVAL
-[10:59:05] [Server thread/INFO]: Generating keypair
-[10:59:05] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:59:05] [Server thread/INFO]: Using epoll channel type
-[10:59:05] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[10:59:05] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[10:59:05] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[10:59:06] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[10:59:06] [Server thread/INFO]: [floodgate] Took 1,111ms to boot Floodgate
-[10:59:06] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
-[10:59:07] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[10:59:07] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[10:59:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:59:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:59:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:59:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:59:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:59:07] [Server thread/INFO]: Preparing level "world"
-[10:59:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:59:08] [Server thread/INFO]: Preparing spawn area: 0%
-[10:59:09] [Server thread/INFO]: Preparing spawn area: 2%
-[10:59:09] [Server thread/INFO]: Preparing spawn area: 71%
-[10:59:09] [Server thread/INFO]: Time elapsed: 1104 ms
-[10:59:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[10:59:09] [Server thread/INFO]: Preparing spawn area: 0%
-[10:59:09] [Server thread/INFO]: Time elapsed: 232 ms
-[10:59:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[10:59:09] [Server thread/INFO]: Preparing spawn area: 0%
-[10:59:10] [Server thread/INFO]: Time elapsed: 172 ms
-[10:59:10] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[10:59:10] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
-[10:59:11] [Server thread/INFO]: [spark] Starting background profiler...
-[10:59:11] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[10:59:11] [Server thread/INFO]: [Geyser-Spigot] 
-[10:59:11] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b817 (git-master-84aac67)
-[10:59:11] [Server thread/INFO]: [Geyser-Spigot] 
-[10:59:11] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[10:59:17] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[10:59:17] [Server thread/INFO]: [Geyser-Spigot] Done (5.923s)! Run /geyser help for help!
-[10:59:17] [Server thread/INFO]: Done preparing level "world" (10.022s)
-[10:59:17] [Server thread/INFO]: Running delayed init tasks
-[10:59:17] [Server thread/INFO]: Done (23.954s)! For help, type "help"
-[10:59:32] [User Authenticator #0/INFO]: UUID of player Ayush is 12ce0333-8ddf-3ec3-bc64-fb2c2b386f98
-[10:59:34] [Server thread/INFO]: Ayush joined the game
-[10:59:34] [Server thread/INFO]: Ayush[/127.185.166.8:51451] logged in with entity id 13 at ([world]-167.69999998807907, 65.0, 208.63185311553013)
-[11:54:09] [Server thread/INFO]: Ayush lost connection: Disconnected
-[11:54:09] [Server thread/INFO]: Ayush left the game
-[11:54:24] [Server thread/INFO]: Stopping server
-[11:54:24] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
-[11:54:24] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[11:54:24] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[11:54:24] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[11:54:24] [Server thread/INFO]: Saving players
-[11:54:24] [Server thread/INFO]: Saving worlds
-[11:54:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[11:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[11:54:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[11:54:24] [Server thread/INFO]: [ChunkHolderManager] Saved 16 block chunks, 100 entity chunks, 0 poi chunks in world 'world' in 0.05s
-[11:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[11:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[11:54:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[11:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[11:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[11:54:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[11:54:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[11:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[11:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[11:54:24] [WebSocketConnectReadThread-72/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[11:54:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[11:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[11:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[11:54:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[11:54:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[11:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[11:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[11:54:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:54:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:54:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:54:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[11:54:24] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[11:54:24] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[11:54:24] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[11:54:24] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[11:10:04] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Microsoft Microsoft-10800198) on Linux 6.8.0-1026-azure (amd64)
+[11:10:04] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-40-main@b9d3147 (2025-04-27T12:23:49Z) for Minecraft 1.21.5
+[11:10:04] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[11:10:05] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[11:10:05] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+ - Geyser-Spigot (2.7.0-SNAPSHOT), Timber (1.6.3), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[11:10:13] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:10:16] [ServerMain/INFO]: Loaded 1373 recipes
+[11:10:16] [ServerMain/INFO]: Loaded 1484 advancements
+[11:10:16] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[11:10:16] [Server thread/INFO]: Loading properties
+[11:10:16] [Server thread/INFO]: This server is running Paper version 1.21.5-40-main@b9d3147 (2025-04-27T12:23:49Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[11:10:16] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[11:10:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:10:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:10:18] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[11:10:18] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[11:10:19] [Server thread/INFO]: Default game type: SURVIVAL
+[11:10:19] [Server thread/INFO]: Generating keypair
+[11:10:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:10:19] [Server thread/INFO]: Using epoll channel type
+[11:10:19] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[11:10:19] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[11:10:19] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[11:10:21] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[11:10:21] [Server thread/INFO]: [floodgate] Took 1,440ms to boot Floodgate
+[11:10:21] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
+[11:10:22] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[11:10:22] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[11:10:22] [Server thread/INFO]: [Timber] Loading server plugin Timber v1.6.3
+[11:10:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:10:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:10:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:10:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:10:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:10:22] [Server thread/INFO]: Preparing level "world"
+[11:10:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:10:23] [Server thread/INFO]: Preparing spawn area: 0%
+[11:10:24] [Server thread/INFO]: Preparing spawn area: 4%
+[11:10:24] [Server thread/INFO]: Preparing spawn area: 81%
+[11:10:24] [Server thread/INFO]: Time elapsed: 1305 ms
+[11:10:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:10:24] [Server thread/INFO]: Preparing spawn area: 0%
+[11:10:25] [Server thread/INFO]: Time elapsed: 305 ms
+[11:10:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:10:25] [Server thread/INFO]: Preparing spawn area: 0%
+[11:10:25] [Server thread/INFO]: Time elapsed: 203 ms
+[11:10:25] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[11:10:26] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
+[11:10:26] [Server thread/INFO]: [Timber] Enabling Timber v1.6.3
+[11:10:28] [Server thread/INFO]: [spark] Starting background profiler...
+[11:10:29] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[11:10:29] [Server thread/INFO]: [Geyser-Spigot] 
+[11:10:29] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b817 (git-master-84aac67)
+[11:10:29] [Server thread/INFO]: [Geyser-Spigot] 
+[11:10:29] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[11:10:36] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[11:10:36] [Server thread/INFO]: [Geyser-Spigot] Done (7.163s)! Run /geyser help for help!
+[11:10:36] [Server thread/INFO]: Done preparing level "world" (14.046s)
+[11:10:36] [Server thread/INFO]: Running delayed init tasks
+[11:10:36] [Server thread/INFO]: Done (34.381s)! For help, type "help"
+[11:11:09] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Utkarsh alok
+[11:11:09] [localSession-7-2/INFO]: [Geyser-Spigot] Utkarsh alok (logged in as: Utkarsh_alok) has connected to the Java server
+[11:11:09] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Utkarsh_alok joined (UUID: 00000000-0000-0000-0009-01f45af8fa67)
+[11:11:10] [Server thread/INFO]: .Utkarsh_alok joined the game
+[11:11:10] [Server thread/INFO]: .Utkarsh_alok[/127.0.0.1:0] logged in with entity id 12 at ([world]255.13464, 64.0, 317.43295)
+[11:16:23] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username DEATHLORD453590
+[11:16:23] [localSession-7-3/INFO]: [Geyser-Spigot] DEATHLORD453590 (logged in as: DEATHLORD453590) has connected to the Java server
+[11:16:24] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DEATHLORD453590 joined (UUID: 00000000-0000-0000-0009-01f816564c19)
+[11:16:24] [Server thread/INFO]: .DEATHLORD453590 joined the game
+[11:16:24] [Server thread/INFO]: .DEATHLORD453590[/127.0.0.1:0] logged in with entity id 784 at ([world]-259.53336, -4.0, 527.6995)
+[11:24:34] [Async Chat Thread - #0/INFO]: [Not Secure] <.Utkarsh_alok> 274.39 64.00 323.84
+[11:27:23] [Async Chat Thread - #1/INFO]: [Not Secure] <.Utkarsh_alok> 260.57 64.00 312.37
+[11:30:35] [Server thread/WARN]: .Utkarsh_alok moved wrongly!
+[11:30:35] [Server thread/WARN]: .Utkarsh_alok moved wrongly!
+[11:34:08] [User Authenticator #0/INFO]: UUID of player Ayush is 12ce0333-8ddf-3ec3-bc64-fb2c2b386f98
+[11:34:10] [Server thread/INFO]: Ayush joined the game
+[11:34:10] [Server thread/INFO]: Ayush[/127.116.111.144:35311] logged in with entity id 5583 at ([world]-165.53595779470666, 71.0, 199.79937995247303)
+[11:34:58] [Async Chat Thread - #3/INFO]: [Not Secure] <Ayush> hello
+[11:35:06] [Async Chat Thread - #3/INFO]: [Not Secure] <.DEATHLORD453590> hello
+[11:35:33] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] DEATHLORD453590 has disconnected from the Java server because of Bedrock client disconnected
+[11:35:33] [Server thread/INFO]: .DEATHLORD453590 lost connection: Disconnected
+[11:35:33] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .DEATHLORD453590 disconnected
+[11:35:33] [Server thread/INFO]: .DEATHLORD453590 left the game
+[11:35:57] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username DEATHLORD453590
+[11:35:57] [localSession-7-4/INFO]: [Geyser-Spigot] DEATHLORD453590 (logged in as: DEATHLORD453590) has connected to the Java server
+[11:35:57] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DEATHLORD453590 joined (UUID: 00000000-0000-0000-0009-01f816564c19)
+[11:35:57] [Server thread/INFO]: .DEATHLORD453590 joined the game
+[11:35:57] [Server thread/INFO]: .DEATHLORD453590[/127.0.0.1:0] logged in with entity id 6330 at ([world]173.7901, 64.0, 463.7)
+[11:38:28] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] DEATHLORD453590 has disconnected from the Java server because of Bedrock client disconnected
+[11:38:28] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .DEATHLORD453590 disconnected
+[11:38:28] [Server thread/INFO]: .DEATHLORD453590 lost connection: Disconnected
+[11:38:28] [Server thread/INFO]: .DEATHLORD453590 left the game
+[11:38:49] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username DEATHLORD453590
+[11:38:49] [localSession-7-1/INFO]: [Geyser-Spigot] DEATHLORD453590 (logged in as: DEATHLORD453590) has connected to the Java server
+[11:38:49] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DEATHLORD453590 joined (UUID: 00000000-0000-0000-0009-01f816564c19)
+[11:38:49] [Server thread/INFO]: .DEATHLORD453590 joined the game
+[11:38:49] [Server thread/INFO]: .DEATHLORD453590[/127.0.0.1:0] logged in with entity id 7178 at ([world]207.16336, 63.0, 309.24045)
+[11:42:20] [Server thread/INFO]: .Utkarsh_alok has made the advancement [Hot Stuff]
+[11:43:13] [Async Chat Thread - #5/INFO]: [Not Secure] <.DEATHLORD453590> ayush
+[11:44:13] [Async Chat Thread - #5/INFO]: [Not Secure] <Ayush> sleep
+[11:45:40] [Server thread/INFO]: .Utkarsh_alok has made the advancement [Ice Bucket Challenge]
+[11:46:10] [Server thread/INFO]: .DEATHLORD453590 has made the advancement [Ice Bucket Challenge]
+[11:46:38] [Server thread/INFO]: Ayush issued server command: /locate biome minecraft:swamp
+[11:46:41] [Server thread/INFO]: Locating element minecraft:swamp took 2600 ms
+[11:46:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2567ms or 51 ticks behind
+[11:47:01] [Server thread/WARN]: .DEATHLORD453590 moved wrongly!
+[11:47:01] [Server thread/WARN]: .DEATHLORD453590 moved wrongly!
+[11:47:10] [Server thread/INFO]: Ayush issued server command: /locate biome minecraft:swamp
+[11:47:13] [Server thread/INFO]: Locating element minecraft:swamp took 2645 ms
+[11:47:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2604ms or 52 ticks behind
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.6442499999999995,0.0,-12.963529999999992
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:13] [Server thread/WARN]: .Utkarsh_alok moved too quickly! -3.4715699999999856,-0.0830699999999922,-12.718630000000019
+[11:47:48] [Server thread/INFO]: .DEATHLORD453590 has made the advancement [Hot Stuff]
+[11:50:25] [Server thread/INFO]: .DEATHLORD453590 has made the advancement [We Need to Go Deeper]
+[11:52:10] [Async Chat Thread - #7/INFO]: [Not Secure] <.Utkarsh_alok> ayush bhaiya
+[11:52:39] [Async Chat Thread - #7/INFO]: [Not Secure] <.Utkarsh_alok> stone ya stone brick hai kya?
+[11:55:17] [Async Chat Thread - #9/INFO]: [Not Secure] <.Utkarsh_alok> sleep
+[11:55:40] [Async Chat Thread - #9/INFO]: [Not Secure] <.DEATHLORD453590> sleep
+[11:56:25] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] DEATHLORD453590 has disconnected from the Java server because of Bedrock client disconnected
+[11:56:25] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .DEATHLORD453590 disconnected
+[11:56:25] [Server thread/INFO]: .DEATHLORD453590 lost connection: Disconnected
+[11:56:25] [Server thread/INFO]: .DEATHLORD453590 left the game
+[11:59:54] [Server thread/WARN]: Ayush moved wrongly!
+[12:02:13] [Server thread/INFO]: Ayush has made the advancement [Diamonds!]
+[12:05:39] [Async Chat Thread - #11/INFO]: [Not Secure] <.Utkarsh_alok> hello?
+[12:07:01] [Server thread/INFO]: Ayush has made the advancement [Cover Me with Diamonds]
+[12:08:56] [Server thread/WARN]: .Utkarsh_alok moved wrongly!
+[12:08:56] [Server thread/WARN]: .Utkarsh_alok moved wrongly!
+[12:16:46] [Server thread/WARN]: .Utkarsh_alok moved wrongly!
+[12:19:01] [Server thread/INFO]: Ayush lost connection: Timed out
+[12:19:01] [Server thread/INFO]: Ayush left the game
+[12:19:23] [User Authenticator #1/INFO]: UUID of player Ayush is 12ce0333-8ddf-3ec3-bc64-fb2c2b386f98
+[12:19:24] [Server thread/INFO]: Ayush joined the game
+[12:19:24] [Server thread/INFO]: Ayush[/127.116.111.144:59233] logged in with entity id 19278 at ([world]165.69999998807907, -24.0, 539.6999999880791)
+[12:25:19] [Server thread/INFO]: Ayush has made the advancement [Ice Bucket Challenge]
+[12:25:29] [Server thread/INFO]: Ayush has made the advancement [Hot Stuff]
+[12:27:49] [Server thread/INFO]: Ayush issued server command: /give Ayush minecraft:cooked_porkchop 64
+[12:27:49] [Server thread/INFO]: [Ayush: Gave 64 [Cooked Porkchop] to Ayush]
+[12:35:05] [Async Chat Thread - #13/INFO]: [Not Secure] <Ayush> where are you broo
+[12:35:18] [Async Chat Thread - #13/INFO]: [Not Secure] <.Utkarsh_alok> bhaiii ka base pe
+[12:39:51] [Async Chat Thread - #15/INFO]: [Not Secure] <Ayush> sleep
+[12:40:03] [Server thread/WARN]: .Utkarsh_alok moved wrongly!
+[12:51:07] [Async Chat Thread - #17/INFO]: [Not Secure] <.Utkarsh_alok> sleep
+[12:53:48] [Server thread/INFO]: .Utkarsh_alok drowned
+[12:56:13] [Server thread/WARN]: .Utkarsh_alok moved wrongly!
+[12:56:14] [Server thread/WARN]: .Utkarsh_alok moved wrongly!
+[13:02:11] [Async Chat Thread - #19/INFO]: [Not Secure] <.Utkarsh_alok> sleep
+[13:04:18] [Async Chat Thread - #21/INFO]: [Not Secure] <.Utkarsh_alok> bye
+[13:04:44] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Utkarsh_alok disconnected
+[13:04:44] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Utkarsh alok has disconnected from the Java server because of Bedrock client disconnected
+[13:04:44] [Server thread/INFO]: .Utkarsh_alok lost connection: Disconnected
+[13:04:44] [Server thread/INFO]: .Utkarsh_alok left the game
+[13:10:10] [Server thread/INFO]: Ayush issued server command: /fill 134 45 514 144 55 524 obsidian
+[13:10:10] [Server thread/INFO]: [Ayush: Successfully filled 1331 block(s)]
+[13:10:17] [Server thread/INFO]: Ayush issued server command: /gamemode creative
+[13:10:17] [Server thread/INFO]: [Ayush: Set own game mode to Creative Mode]
+[13:11:30] [Server thread/INFO]: Ayush issued server command: /fill 135 46 515 143 54 523 air
+[13:11:30] [Server thread/INFO]: [Ayush: Successfully filled 724 block(s)]
+[13:11:58] [Server thread/INFO]: Ayush issued server command: /fill 136 47 516 142 53 522 nether_portal
+[13:11:58] [Server thread/INFO]: [Ayush: Successfully filled 343 block(s)]
+[13:12:15] [Server thread/INFO]: Ayush issued server command: /fill 136 47 516 142 53 522 nether_portal
+[13:12:34] [Server thread/INFO]: Ayush issued server command: /setblock 134 45 514 crying_obsidian
+[13:12:34] [Server thread/INFO]: [Ayush: Changed the block at 134, 45, 514]
+[13:13:44] [Server thread/INFO]: Ayush issued server command: /setblock 144 45 514 crying_obsidian
+[13:13:44] [Server thread/INFO]: [Ayush: Changed the block at 144, 45, 514]
+[13:13:58] [Server thread/INFO]: Ayush issued server command: /setblock 134 55 524 crying_obsidian
+[13:13:58] [Server thread/INFO]: [Ayush: Changed the block at 134, 55, 524]
+[13:14:10] [Server thread/INFO]: Ayush issued server command: /setblock 144 55 524 crying_obsidian
+[13:14:10] [Server thread/INFO]: [Ayush: Changed the block at 144, 55, 524]
+[13:14:51] [Server thread/INFO]: Ayush issued server command: /setblock 139 45 519 soul_fire
+[13:14:51] [Server thread/INFO]: [Ayush: Changed the block at 139, 45, 519]
+[13:16:12] [Server thread/INFO]: Ayush issued server command: /fill 134 45 514 144 55 524 air
+[13:16:12] [Server thread/INFO]: [Ayush: Successfully filled 600 block(s)]
+[13:17:15] [Server thread/INFO]: Ayush issued server command: /fill 138 48 519 140 55 519 air
+[13:17:35] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/setblock 139 50 519 nether_portal<--[HERE]
+[13:17:45] [Server thread/INFO]: Ayush issued server command: /setblock 139 50 519 nether_portal
+[13:17:45] [Server thread/INFO]: [Ayush: Changed the block at 139, 50, 519]
+[13:18:02] [Server thread/INFO]: Ayush issued server command: /setblock 139 51 519 nether_portal
+[13:18:02] [Server thread/INFO]: [Ayush: Changed the block at 139, 51, 519]
+[13:18:14] [Server thread/INFO]: Ayush issued server command: /setblock 139 52 519 nether_portal
+[13:18:14] [Server thread/INFO]: [Ayush: Changed the block at 139, 52, 519]
+[13:18:29] [Server thread/INFO]: Ayush issued server command: /setblock 138 50 519 crying_obsidian
+[13:18:29] [Server thread/INFO]: [Ayush: Changed the block at 138, 50, 519]
+[13:20:14] [Server thread/INFO]: Ayush issued server command: /fill 137 45 517 141 56 521 air
+[13:20:14] [Server thread/INFO]: [Ayush: Successfully filled 25 block(s)]
+[13:20:20] [Server thread/INFO]: Ayush issued server command: /fill 137 45 517 141 56 521 air
+[13:20:47] [Server thread/INFO]: Ayush issued server command: /fill 137 51 517 141 55 521 nether_portal
+[13:20:47] [Server thread/INFO]: [Ayush: Successfully filled 125 block(s)]
+[13:22:06] [Server thread/INFO]: Ayush issued server command: /fill 139 45 518 139 56 520 air
+[13:22:06] [Server thread/INFO]: [Ayush: Successfully filled 3 block(s)]
+[13:22:28] [Server thread/INFO]: Ayush issued server command: /fill 139 51 518 139 55 520 nether_portal
+[13:22:28] [Server thread/INFO]: [Ayush: Successfully filled 15 block(s)]
+[13:23:34] [Server thread/INFO]: Ayush issued server command: /fill 139 45 518 139 56 520 air
+[13:23:34] [Server thread/INFO]: [Ayush: Successfully filled 3 block(s)]
+[13:24:02] [Server thread/INFO]: Ayush issued server command: /fill 138 51 519 140 55 519 nether_portal
+[13:24:02] [Server thread/INFO]: [Ayush: Successfully filled 15 block(s)]
+[13:25:22] [Server thread/INFO]: Ayush issued server command: /fill 139 45 518 139 55 520 air
+[13:25:22] [Server thread/INFO]: [Ayush: Successfully filled 1 block(s)]
+[13:25:35] [Server thread/INFO]: Ayush issued server command: /fill 139 51 518 139 55 520 nether_portal
+[13:25:35] [Server thread/INFO]: [Ayush: Successfully filled 15 block(s)]
+[13:26:44] [Server thread/INFO]: Ayush issued server command: /fill 139 45 518 139 55 520 air
+[13:26:44] [Server thread/INFO]: [Ayush: Successfully filled 3 block(s)]
+[13:27:04] [Server thread/INFO]: Ayush issued server command: /setblock 139 51 518 obsidiansetblock 139 51 520 obsidiansetblock 139 52 518 obsidiansetblock 139 52 520 obsidiansetblock 139 53 518 obsidiansetblock 139 53 520 obsidiansetblock 139 54 518 obsidiansetblock 139 54 520 obsidian
+[13:27:20] [Server thread/INFO]: Ayush issued server command: /setblock 139 51 518 obsidian
+[13:27:20] [Server thread/INFO]: [Ayush: Changed the block at 139, 51, 518]
+[13:27:34] [Server thread/INFO]: Ayush issued server command: /setblock 139 51 520 obsidian
+[13:27:34] [Server thread/INFO]: [Ayush: Changed the block at 139, 51, 520]
+[13:27:47] [Server thread/INFO]: Ayush issued server command: /setblock 139 52 518 obsidian
+[13:27:47] [Server thread/INFO]: [Ayush: Changed the block at 139, 52, 518]
+[13:27:57] [Server thread/INFO]: Ayush issued server command: /setblock 139 52 520 obsidian
+[13:27:57] [Server thread/INFO]: [Ayush: Changed the block at 139, 52, 520]
+[13:28:09] [Server thread/INFO]: Ayush issued server command: /setblock 139 53 518 obsidian
+[13:28:09] [Server thread/INFO]: [Ayush: Changed the block at 139, 53, 518]
+[13:28:20] [Async Chat Thread - #23/INFO]: [Not Secure] <Ayush> setblock 139 53 520 obsidian/
+[13:28:24] [Server thread/INFO]: Ayush issued server command: /setblock 139 53 520 obsidian
+[13:28:24] [Server thread/INFO]: [Ayush: Changed the block at 139, 53, 520]
+[13:28:37] [Server thread/INFO]: Ayush issued server command: /setblock 139 54 518 obsidian
+[13:28:37] [Server thread/INFO]: [Ayush: Changed the block at 139, 54, 518]
+[13:28:49] [Server thread/INFO]: Ayush issued server command: /setblock 139 54 520 obsidian
+[13:28:49] [Server thread/INFO]: [Ayush: Changed the block at 139, 54, 520]
+[13:29:06] [Server thread/INFO]: Ayush issued server command: /fill 139 55 518 139 55 520 obsidian
+[13:29:06] [Server thread/INFO]: [Ayush: Successfully filled 3 block(s)]
+[13:29:21] [Server thread/INFO]: Ayush issued server command: /setblock 139 54 519 crying_obsidian
+[13:29:21] [Server thread/INFO]: [Ayush: Changed the block at 139, 54, 519]
+[13:29:37] [Server thread/INFO]: Ayush issued server command: /setblock 139 53 518 crying_obsidian
+[13:29:37] [Server thread/INFO]: [Ayush: Changed the block at 139, 53, 518]
+[13:29:49] [Server thread/INFO]: Ayush issued server command: /setblock 139 53 520 crying_obsidian
+[13:29:49] [Server thread/INFO]: [Ayush: Changed the block at 139, 53, 520]
+[13:30:03] [Server thread/INFO]: Ayush issued server command: /fill 139 50 518 139 50 520 chiseled_nether_bricks
+[13:30:03] [Server thread/INFO]: [Ayush: Successfully filled 3 block(s)]
+[13:30:42] [Server thread/INFO]: Ayush issued server command: /setblock 139 49 519 polished_blackstone
+[13:30:42] [Server thread/INFO]: [Ayush: Changed the block at 139, 49, 519]
+[13:30:54] [Server thread/INFO]: Ayush issued server command: /setblock 139 48 519 polished_blackstone
+[13:30:54] [Server thread/INFO]: [Ayush: Changed the block at 139, 48, 519]
+[13:31:05] [Server thread/INFO]: Ayush issued server command: /setblock 139 47 519 polished_blackstone
+[13:31:05] [Server thread/INFO]: [Ayush: Changed the block at 139, 47, 519]
+[13:31:16] [Server thread/INFO]: Ayush issued server command: /setblock 139 46 519 soul_soil
+[13:31:16] [Server thread/INFO]: [Ayush: Changed the block at 139, 46, 519]
+[13:31:28] [Server thread/INFO]: Ayush issued server command: /setblock 139 45 519 soul_fire
+[13:31:28] [Server thread/INFO]: [Ayush: Changed the block at 139, 45, 519]
+[13:31:35] [Server thread/INFO]: Ayush issued server command: /setblock 139 45 519 soul_fire
+[13:31:35] [Server thread/INFO]: [Ayush: Changed the block at 139, 45, 519]
+[13:32:24] [Server thread/INFO]: Ayush has made the advancement [Who is Cutting Onions?]
+[13:40:49] [Server thread/INFO]: Ayush lost connection: Disconnected
+[13:40:49] [Server thread/INFO]: Ayush left the game
+[13:41:02] [Server thread/INFO]: Stopping server
+[13:41:02] [Server thread/INFO]: [Timber] Disabling Timber v1.6.3
+[13:41:02] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
+[13:41:02] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[13:41:02] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[13:41:02] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[13:41:02] [Server thread/INFO]: Saving players
+[13:41:03] [Server thread/INFO]: Saving worlds
+[13:41:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:41:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:41:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:41:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[13:41:03] [WebSocketConnectReadThread-416/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[13:41:03] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 37 entity chunks, 0 poi chunks in world 'world' in 0.07s
+[13:41:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[13:41:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[13:41:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:41:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[13:41:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[13:41:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[13:41:03] [Server thread/INFO]: [ChunkHolderManager] Saved 277 block chunks, 63 entity chunks, 0 poi chunks in world 'world_nether' in 0.25s
+[13:41:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[13:41:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[13:41:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:41:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[13:41:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[13:41:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[13:41:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[13:41:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[13:41:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[13:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:41:03] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[13:41:03] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[13:41:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[13:41:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
